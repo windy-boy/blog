@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    color: #333333;
+}
+
+/***表格样式***/
+.table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table caption {
+    color: #1278d5;
+    height: 24px;
+    line-height: 24px;
+    background: url(../img/htimg/table_head.gif) repeat-x;
+    border: 1px solid #85c4fc;
+    border-bottom: none;
+}
+
+.table tr {
+    height: 24px;
+}
+
+.table td {
+    background: white;
+    text-align: left;
+    padding: 5px 15px;
+    border: 1px solid #85c4fc;
+}
+
+.table th {
+    width: 120px;
+    background: #ecf8ff;
+    color: #1278d5;
+    font-weight: normal;
+    text-align: center;
+    line-height: 24px;
+    border: 1px solid #85c4fc;
+}
+
+/***表格上方功能按钮区域***/
+a img {
+    border: none;
+}
+
+.table0 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.topldiv {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+
+.topldiv img {
+    margin-top: 7px;
+    float: left;
+}
+
+.toprdiv {
+    float: right;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.toprdiv a {
+    margin-bottom: 5px;
+    display: block;
+    float: right;
+}
+
+/***list样式**/
+.list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list th {
+    height: 24px;
+    background: url(../img/htimg/table_head.gif) repeat-x;
+    color: #1278d5;
+    border: 1px solid #85c4fc;
+}
+
+.list caption {
+    color: #1278d5;
+    height: 24px;
+    line-height: 24px;
+    background: url(../img/htimg/table_head.gif) repeat-x;
+    border: 1px solid #85c4fc;
+    border-bottom: none;
+}
+
+.list td {
+    height: 24px;
+    border: 1px solid #85c4fc;
+    text-align: center;
+}
+
+.list a {
+    color: #1278d5;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: red;
+}
+
+.delbtn {
+    width: 39px;
+    height: 20px;
+   background: url(../img/htimg/del.gif);
+    background-repeat: no-repeat;
+    border: none;
+}
+.subbtn {
+    width: 39px;
+    height: 20px;
+    background: url(../img/htimg/submit.gif);
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.fenye {
+    width: 98%;
+    height: 25px;
+    text-align: right;
+    color: #1278d5;
+}
+
+.fenye a {
+    border: none;
+    color: #1278d5;
+    text-decoration: none;
+}
+
+.fenye a:hover {
+    border: none;
+    color: red;
+}
+
+/***表单控件样式**/
+.btn {
+    border: #7b9ebd 1px solid;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+    StartColorStr=#ffffff, EndColorStr=#85c4fc);
+    cursor: hand;
+    color: black;
+    padding: 3px 8px;
+}
+
+.textbox {
+    border-top: 1px #555 solid;
+    border-left: 1px #555 solid;
+    border-bottom: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    line-height: 20px;
+    height: 20px;
+    width: 180px;
+    padding-left: 5px;
+}
+
+.textbox0 {
+    height: 20px;
+    width: 180px;
+    border: none;
+    border-bottom: 1px #555 solid;
+    padding-left: 5px;
+}
+
+.dropdownlist {
+    border-top: 1px #555 solid;
+    border-left: 1px #555 solid;
+    border-bottom: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+}
+
+.submit {
+    width: 39px;
+    height: 20px;
+    background: url(../img/htimg/submit.gif);
+    border: none;
+}

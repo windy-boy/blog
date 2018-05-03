@@ -1,0 +1,75 @@
+#box {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#box ul {
+    width: 8000px;
+    height: 500px;
+    position: absolute;
+    left: -1000px;
+    top: 0;
+}
+
+#box ul li {
+    float: left;
+    width: 1000px;
+}
+
+li img {
+    width: 1000px;
+}
+
+#left {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #666;
+    opacity: 0;
+    filter: alpha(opacity:50);
+    left: 0;
+    top: 48%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#right {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #666;
+    opacity: 0;
+    filter: alpha(opacity=50);
+    right: 0;
+    top: 48%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#count {
+    width: 68px;
+    height: 10px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+#count span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 3px;
+    background-color: #000;
+}
+
+#count span.bgcolor {
+    background-color: #f90;
+}

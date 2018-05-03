@@ -1,0 +1,128 @@
+.footer {
+    width: 100%;
+    /*height: 145px;*/
+    background-color: #8f8f8f;
+    overflow: hidden;
+}
+
+.footer .f_box {
+    margin: 0 auto;
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.footer .f_box span {
+    font-size: 18px;
+    color: white;
+    float: left;
+    display: inline-block;
+    cursor: default;
+}
+
+.footer .f_box ul li {
+    margin-left: 50px;
+    float: left;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer .f_secondBox {
+    margin: 0 auto;
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.footer .f_secondBox span {
+    font-size: 18px;
+    color: white;
+    float: left;
+    display: inline-block;
+    cursor: default;
+}
+
+.footer .f_secondBox ul li {
+    margin-left: 50px;
+    float: left;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer .f_thirdBox {
+    margin: 0 auto;
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.footer .f_thirdBox span {
+    font-size: 18px;
+    color: white;
+    float: left;
+    display: inline-block;
+    cursor: default;
+}
+
+.footer .f_thirdBox ul li {
+    margin-left: 50px;
+    float: left;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer .f_fourBox {
+    margin: 0 auto;
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.footer .f_fourBox span {
+    font-size: 18px;
+    color: white;
+    float: left;
+    display: inline-block;
+    cursor: default;
+}
+
+.footer .f_fourBox ul li {
+    margin-left: 50px;
+    float: left;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer .line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.footer .last {
+    margin: 0 auto;
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.footer .last span {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+
+}
