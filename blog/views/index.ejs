@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%include ./head.ejs %>
+  </head>
+  <body>
+    <% include header.ejs%>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>欢迎!游客</h1>
+            <p>blog是node.js做的一个博客项目，请先注册在登陆，才能使用到我们所有的功能</p>
+            <p>
+              <a class="btn btn-primary btn-lg" href="/users/register" role="button">注册</a>
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p>已有账号,请赶紧登录！！！！！！</p>
+              <div class="form-group">
+                <label for="exampleInputEmail1">用户名</label>
+                <input name="userName" type="text" class="form-control" id="exampleInputEmail1" placeholder="请输入用户的账号">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">密码</label>
+                <input name="psw" type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入用户的密码">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" checked> 我接受用户协议
+                </label>
+              </div>
+              <button type="btn" id="btn" class="btn btn-default">登陆</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  $(function () {
+//      $('#btn').click(function () {
+//          let userVal=$('#exampleInputEmail1').val();
+//          let pswVal=$('#exampleInputPassword1').val();
+//          $.post('/users/doregister',{userName:userVal,psw:pswVal},(res)=>{
+//              console.log(res)
+//          })
+//      })
+  })
+</script>
